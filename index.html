@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation Exercises</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="site">
+        <section id="workarea" class="area">
+            <select class="exercise-picker">
+            </select>
+            <div class="inputs">
+
+            </div>
+            <!-- <div class="submission">
+                <span class="submission__wrap">.element {</span>
+                <textarea class="submission__text" cols="30" rows="10"></textarea>
+                <span class="submission__wrap">}</span>
+            </div> -->
+            <button class="submission-submit">Verify answer</button>
+            <div class="submission__error"></div>
+        </section>
+        <section id="previewarea" class="area">
+            <span class="resultbox-header">Expected behavior:</span>
+            <div class="resultbox expected"></div>
+            <span class="resultbox-header">Your answer:</span>
+            <div class="resultbox actual"></div>
+        </section>
+    </main>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>
